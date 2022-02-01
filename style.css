@@ -134,7 +134,40 @@
 
 .signup-container {
     display: flex;
-    border: solid blue;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: flex-start;
+    align-items: center;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.signup-adv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 150px;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-button button {
+    background-color: #3882F6;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
