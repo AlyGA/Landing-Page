@@ -172,7 +172,13 @@
 
 .footer {
     display: flex;
-    border: solid orange;
+    background-color: #1F2937;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 body {
