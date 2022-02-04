@@ -59,12 +59,11 @@
 
 .head-text {
     display: flex;
-    /*border: solid palevioletred;*/
+    margin-bottom: -35px;
 }
 
 .introduction-text {
     display: flex;
-    /*border: solid brown;*/
     margin-right: -100px;
 }
 
@@ -77,6 +76,7 @@
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    margin-top: -40px;
 
 }
 
