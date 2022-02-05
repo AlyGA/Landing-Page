@@ -46,7 +46,6 @@
 .text-container {
     display: flex;
     flex-direction: column;
-    /*border: solid red;*/
     padding-right: 100px;
     padding-left: 500px;
     width: 300px;
@@ -78,9 +77,13 @@
 
 }
 
-.image-container {
+.rectangle {
+    width: 400px;
+    height: 230px;
+    background-color: gray;
     display: flex;
     padding-left: 50px;
+    margin-left: 20px;
 }
 
 .content {
@@ -108,6 +111,17 @@
 
 .pictures {
     display: flex;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 5px;
 }
 
 .quote-container {
@@ -160,8 +174,19 @@
     flex-direction: column;
     margin-left: 100px;
     margin-right: 150px;
+    padding: 15px;
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
+}
+
+.calltoaction {
+    display: flex;
+    margin-bottom: -10px;
+}
+
+.signup-info {
+    display: flex;
+    margin-top: -20px;
 }
 
 .signup-button button {
@@ -187,8 +212,10 @@
     font-weight: 300;
 }
 
-body {
+body{
     display: flex;
     flex-direction: column;
     background-color: #F9FAF8;
+    margin: 0;
+    flex: 1;
 }
